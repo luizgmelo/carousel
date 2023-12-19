@@ -4,10 +4,22 @@
     <title>Carousel</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
   <body>
-    <h1>Hello, World!</h1>
+    <div id="root">
+    <h1 class="title">Carousel</h1>
+      <div class="container">
+        <img class="image" src="assets/img/pexels-nina-hill-19020394.jpg" alt="img">
+        <div class="buttons">
+          <button id="btPrev" class="btn" type="button"> < </button>
+          <button id="btNext" class="btn" type="button"> > </button>
+        </div>
+      </div>
+    </div>
   
     <script src="script.js"></script>
   </body>
