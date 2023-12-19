@@ -1,0 +1,46 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.title {
+  font-family: 'Alex Brush', cursive;
+  text-align: center;
+  font-size: 3em;
+}
+
+.container {
+  width: 600px;
+  display: flex;
+  background: #000;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.container .buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  z-index: 1;
+  position: absolute;
+}
+
+.container .btn {
+  background: white;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+.image {
+  width: 400px;
+  height: 600px;
+  z-index: 0;
+}
